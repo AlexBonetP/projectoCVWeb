@@ -9,7 +9,7 @@ fetch('./js/cvData.json')
         <p>${cvData.dades_personals}</p>
         <p>${cvData.cp}</p>
         <p>${cvData.Tlf}</p>                                                
-        <p>Email: <a href="mailto:${cvData.email}target="_blank" rel="noopener noreferrer">${cvData.email}</a></p>
+        <p>Email: <a href="mailto:${cvData.email}">${cvData.email}</a></p>
         <p>${cvData["altres"]}</p>
       `;
     }
