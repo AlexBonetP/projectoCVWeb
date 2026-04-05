@@ -1,0 +1,225 @@
+/* ====== GLOBAL ====== */
+body {
+  background-image: url("../data/background.avif");
+  background-position: center;
+  color: #f4f4f4;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.70);
+  font-family: Arial, sans-serif;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* ====== LAYOUT ====== */
+.layout {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  gap: 20px;
+}
+
+/* ====== COLUMNA ESQUERRA ====== */
+.left-column {
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+header.header-cv {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1em;
+  color: #e9e7e7;
+}
+
+.foto-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.foto-container img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  /* border-radius: 50%;  Queda millor la foto quadrada, peró si cal modificar, amb aixó la tenim rodona*/
+  /* rodona */
+  border: 3px solid #26e8e0;
+  /* marc cian */
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+}
+
+/*====== ENNLAÇOS ======*/
+/* Estil per al mail dins de dades personals */
+#personal-container a {
+  color: #81D4FA; /* blau clar, es veu bé sobre fons fosc */
+  text-decoration: none; /* opcional: treu subratllat */
+}
+
+#personal-container a:hover {
+  color: #B3E5FC; /* un blau encara més clar al passar el ratolí */
+}
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+#personal-container p a:hover {
+  transform: scale(1.2);
+  /* augmenta lleugerament */
+  opacity: 0.8;
+  /* lleuger efecte de transparència */
+}
+
+
+/* ====== SECCIONS ====== */
+section {
+  margin-bottom: 22px;
+  background: rgba(28, 32, 40, 0.91);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.31), 0 1.5px 0 #38518b35;
+  padding: 18px 14px;
+  border: 1.5px solid #2d3649;
+}
+
+section:hover {
+  box-shadow: 0 9px 32px #26e8e041, 0 1.5px 0 #247ea4;
+  border-color: #26e8e0;
+}
+
+/* ====== TÍTOLS DE SECCIÓ ====== */
+section h2 {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: linear-gradient(90deg, rgba(38, 232, 224, 0.08), rgba(37, 150, 255, 0.04));
+  padding: 8px 14px;
+  border-radius: 8px;
+  border-left: 3px solid #26e8e0;
+
+  font-size: 1.1em;
+  margin-bottom: 4px;
+
+  transition: background 0.25s ease, padding-left 0.25s ease, color 0.25s ease;
+}
+
+section h2:hover {
+  background: rgba(38, 232, 224, 0.18);
+  padding-left: 18px;
+  color: #26e8e0;
+}
+
+section h2::after {
+  content: '▼';
+  font-size: 0.55em;
+  color: #2596ff;
+  opacity: 0.8;
+}
+
+section h2.active::after {
+  /*Quan pestanya activa -->*/
+  content: '▶';
+}
+
+/* ====== TARGETES ====== */
+.job,
+.project {
+  background: rgba(26, 36, 54, 0.81);
+  color: #f3fdff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3.5px 16px rgba(48, 116, 175, 0.19), 0 1.5px 0 #38518b35;
+  border: 1px solid #2b3a59;
+}
+
+.job:hover,
+.project:hover {
+  box-shadow: 0 9px 32px #26e8e041, 0 1.5px 0 #247ea4;
+  border-color: #26e8e0;
+}
+
+.company {
+  font-style: italic;
+  color: #9ed1e6;
+}
+
+.project a {
+  color: #26e8e0;
+  text-decoration: underline;
+  text-shadow: 0 1px 7px #1c1c3b88;
+}
+
+/* ====== LLISTES ====== */
+ul,
+li {
+  color: #b7e5fa !important;
+}
+
+/* ====== ACORDIÓ ====== */
+#training-container,
+#experience-container,
+#extra-training-container,
+#skill-container,
+#languages-container,
+#other-container,
+#projects-container {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.container-visible {
+  max-height: 2000px !important;
+  opacity: 1 !important;
+  padding-top: 15px;
+}
+
+/* ====== FOOTER ====== */
+.footer-cv {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px 10px;
+
+  background: rgba(28, 32, 40, 0.85);
+  border-radius: 10px;
+  border: 1px solid #2d3649;
+
+  font-size: 0.9em;
+  color: #b7e5fa;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  color: #81D4FA;       /* mateix blau que a dades personals */
+  text-decoration: none;
+}
+
+/* ====== LINKS FOOTER ====== */
+
+.footer-cv a {
+  color: #81D4FA;       /* mateix blau que a dades personals */
+  text-decoration: none;
+}
+
+.footer-cv a:hover {
+  color: #B3E5FC;
+}

@@ -1,0 +1,198 @@
+{
+  "nom": "ALEJANDRO BONET PÉREZ",
+  "dades_personals": "Domicilio: Calle Torrent d´en Grau 56 4º 1ª",
+  "cp": "08917, Badalona (Barcelona)",
+  "Tlf": "teléfono 934608815   Móvil: 644549730",
+  "email": "alex.derigs@gmail.com",
+  "altres": "Carnets de conducir B1+ A1+A2+A",
+  "foto": "./data/fotoCV1.jpg",
+  "linkedin": "https://www.linkedin.com/in/usuario/",
+  "github": "https://github.com/usuario",
+  "experiencia": [
+    {
+      "anys": "2022-",
+      "empresa": "Actual Finques Vall d´Hebrón:",
+      "carrec": " Administrador de sistemas,",
+      "descripcio": [
+        "Responsable del correcto funcionamiento de la infraestructura de la empresa desarrollando los siguientes roles:",
+        "  Gestión y mantenimiento de la red corporativa y su conectividad.",
+        "  Implementación y supervisión de medidas de seguridad informática (navegación y protección de datos)",
+        "  Optimicazión de los sistemas para garantizar la eficiencia y continuidad operativa, etc."
+      ]
+    },
+    {
+      "anys": "2018-",
+      "empresa": "Actual Factor energía:",
+      "carrec": "Asessor energètico independiente",
+      "descripcio": [
+        "Orientado a indústria y pymes para optimitzar y gestionar los suministros eléctricos de sus negocios. Esta actividad profesional comencé a desarrollarla de forma paralela con mi ocupación como mecánico de asistencia en carretera. ",
+        "Sector energía-ventas. Especializado en dimensionamiento y desarrollo de sistemas de autoconsumo."
+      ]
+    },
+    {
+      "anys": "2022 - 2024",
+      "empresa": "Engel & Volkers",
+      "carrec": "Gestor inmobiliario independiente:",
+      "descripcio": [
+        "Gestor inmobiliario independiente:",
+        "Centrado en la captación y comercialización de los inmuebles de la zona asignada, ",
+        "mis labores eran:",
+        " Captación de propiedades y asesoramiento personalizado a clientes vendedores.",
+        " Gestión del proceso completo de venta, incluyendo visitas, negociación y cierre.",
+        " Comercialización de propiedades de captación própia como de otras del catalogo de la agéncia.",
+        " Participación en reuniones semanales de coordinación con el equipo comercial."
+      ]
+    },
+    {
+      "anys": "2007- 2018",
+      "empresa": "RACC Mecánico de asisténcia en carretera",
+      "carrec": "Técnico oficial de 1ª",
+      "descripcio": [
+        " Solventando  incidéncias de todo tipo \"in situ\" que sufren los socios, ",
+        " que van desde problemas sencillos de arranque a averías más complejas de ",
+        " índole electrónica con un uso avanzado de la herramienta de diagnóstico ",
+        " tanto en vehículos nuevos como en vehículos con una cierta antiguedad."
+      ]
+    },
+    {
+      "anys": "2007- 2007",
+      "empresa": "AUTOLICA Zona Franca",
+      "carrec": "Técnico oficial de 1ª",
+      "descripcio": [
+        " las mismas condiciones que en la anterior empresa."
+      ]
+    },
+    {
+      "anys": "2000-2007",
+      "empresa": "MAN ESPAÑA Delegación Barcelona en Parets del Vallès",
+      "carrec": "Técnico oficial de 1ª",
+      "descripcio": [
+        "Tècnico en reparación de vehículos industriales",
+        " Reparación de vehículos industriales, especializado en sistemas de frenos, abs,   ",
+        " ebs, retardadores y diversos  sistemas electrònicos, motores, cajas de cambio, etc."
+      ]
+    },
+    {
+      "anys": "1997-2000",
+      "empresa": "REP MOTOR, S.A. Badalona (taller autorizado IVECO)",
+      "carrec": "Técnico oficial de 1ª",
+      "descripcio": [
+        "Técnico en reparación de Vehículos Industriales",
+        " Reparación de todo tipo de trabajos del sector en gamas ligeras, mediana y pesada de ",
+        " vehículos de transporte por carretera.",
+        " Todo tipo de marcas de los actuales vehículos tractores, remolques y ",
+        " semirremolques que circulan por carretera.",
+        " Amplios conocimientos en electricidad-electrónica en el ámbito de la automocion ",
+        " realizando tareas en este campo que van desde la sustitucion de bombillas a la ",
+        " programacion de unidades electrónicas de los vehículos."
+      ]
+    },
+    {
+      "anys": "1988-1997",
+      "empresa": "TALLERES IDUAN (Actualmente desaparecida) Barcelona Mecànico",
+      "carrec": "Mecánico",
+      "descripcio": [
+        " Todos los trabajos relacionados con la mecánica, desde el mantenimiento de vehículos ",
+        " a tareas complejas como ajustar motores, cajas de cambio, embragues, distribuciones, etc."
+      ]
+    },
+    {
+      "anys": "1988",
+      "empresa": "Empresa de moda Pili Sala Pl.Ferràn Casablancas bajos",
+      "carrec": "1ª. (Actualmente desaparecida)",
+      "descripcio": [
+        "1ª. (Actualmente desaparecida)",
+        " Repartidor de moda",
+        " Repartidor de prendas de moda a media jornada por toda Barcelona y alrededores."
+      ]
+    }
+  ],
+  "formacio": [
+    {
+      "anys": "1973-1981",
+      "titol": "Graduado Escolar en la escola pública Verge de Montserrat.",
+      "assignatures": []
+    },
+    {
+      "anys": "2004-2005",
+      "titol": "Acceso a la Universidad para mayores de 25 años en la Universitat Oberta de Catalunya.",
+      "assignatures": []
+    },
+    {
+      "anys": "2005-2008",
+      "titol": "Cursados estudios universitarios de Ingeniería Técnica en Informàtica de Sistemas en la UOC",
+      "assignatures": [
+        "Fundamentos de programación",
+        "Programación orientada a objetos",
+        "Programación Java",
+        "Estructura de la información.",
+        "Estructura i tecnologia de computadores",
+        "Ampliación de estructura y tecnología de computadores",
+        "Multimèdia y comunicaciones",
+        "Lògica",
+        "Inglés I, II y III"
+      ]
+    },
+    {
+      "anys": "2008-2010",
+      "titol": "Convalidación grado médio de automoción por experiència profesional, conselleria d'Educació.",
+      "assignatures": []
+    }
+  ],
+  "formacio_complementaria": [
+    {
+      "anys": "2022-2025",
+      "titol": "Formación tècnica informática moderna (montaje, instalación y configuración de ordenadores a nivell PYME, CCNA Cisco, LPIC 1 i 2 Linux, Python PCAP, Certificat professionalitat IFCD0111 programació en llenguatges estructurats: SQL, HTML, CSS, JS, NODE.JS, EXPRESS) 710 h amb pràctiques (en curs).",
+      "assignatures": []
+    },
+    {
+      "anys": "2011-2016",
+      "titol": "Cursos en Google Academy (competèncias digitales, màrqueting digital y productividad personal), Foment del Treball (negociación y resolución de problemas), Barcelona Activa (màrqueting, ventas, fiscalidad, comptabilidad, social media, etc.)",
+      "assignatures": []
+    },
+    {
+      "anys": "1998",
+      "titol": "Informàtica en animación y diseño gráfico impartido por IBM España.",
+      "assignatures": []
+    }
+  ],
+  "idiomes": [
+    "Español, nativo",
+    "Català, nadiu",
+    "Ingles, alto."
+  ],
+  "informatica": [
+    {
+      "nom": "Cursos de programación para certificación Java SE, ME i JEE"
+    },
+    {
+      "nom": "Administrador de BBDD y sistemas Linux con Apache server"
+    },
+    {
+      "nom": "instalación y configuración de ordenadores y redes a nivel PYME"
+    },
+    {
+      "nom": "Curso CISCO de preparación certificación CCNA en redes informàticas"
+    },
+    {
+      "nom": "curso preparación LPIC 1 y 2 de gestor de sistemas Linux"
+    },
+    {
+      "nom": "curso programación Python de preparación certificación PCAP."
+    },
+    {
+      "nom": "MySQL + HTML + CSS + JS NODE.JS EXPRESS y desarrollo de frontend backend i bases de datos."
+    }
+  ],
+   "proyectos":{
+      "descripcion": "Breve descripción de los proyectos en los que he estado trabajando.",
+       "prs": [
+      {"pr": "1. Creación y diseño de una base de datos que simula la gestión del servicio de bicicletas municipal `bicing.`"},
+      {"pr": "2. Implementación del diseño anterior que incluye codificación y consultas avanzadas en SQL."},
+      {"pr": "3. Diseño y desarrollo del sistema anterior de `triggers, procedures, eventos y funciones del servicio bicing´."},
+      {"pr": "4. Desarrollo en Javascript de un sistema de gestión de eventos con el uso de Node.JS"},
+      {"pr": "5. MyTODO's — Aplicación web de gestión de tareas (CRUD) con persistencia en LocalStorage."},
+      {"pr": "6. Desarrollo, creación e implementación de un sistema gestor de clientes con DB + frontend + backend."}
+   ]
+   }
+  }
